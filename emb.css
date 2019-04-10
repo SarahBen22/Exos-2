@@ -1,0 +1,92 @@
+html{
+
+  min-height: 100vh;
+}
+
+body{
+
+  background: linear-gradient(#0b0626, #000080,#00008B);
+  background-repeat: no-repeat;
+  margin: 0;
+
+}
+
+/*header*/
+
+.tete{
+
+  background-image: url("pictures/cerises.jpg");
+  background-repeat: no-repeat;
+  width: 1366px;
+  height: 150px;
+  border-bottom: 2px solid black;
+
+}
+
+
+/*nav*/
+
+
+.non{
+
+  text-decoration: none;
+  font-size: 20px;
+  border: 2px solid #24445C;
+  border-radius: 25%;
+
+}
+
+
+.crumbs{
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+section{
+  display: flex;
+  border: 2px solid white;
+  margin-top: 30px;
+  border-radius: 20px;
+}
+
+.gauche{
+
+
+  width: 450px;
+  border-radius: 20px;
+  background-color: rgb(171, 23, 107);
+}
+
+
+.droite{
+
+
+  width: 450px;
+  border-radius: 20px;
+  background-color: rgb(171, 23, 107);
+}
+
+article{
+
+  text-align: center;
+
+  flex-direction: row-reverse;
+}
+
+
+.contain{
+
+  display: flex;
+  flex-direction: column;
+}
+
+
+footer{
+  border: 4px solid black;
+  /*  position:absolute;*/
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
